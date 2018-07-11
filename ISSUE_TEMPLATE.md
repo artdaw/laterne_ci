@@ -1,9 +1,3 @@
----
-name: ISSUE_TEMPLATE.md
-about: Issues template
-
----
-
 <!--- Provide a general summary of the issue in the Title above -->
 
 ## Expected Behaviour
@@ -35,6 +29,5 @@ about: Issues template
 ## Your Environment
 <!--- Include as many relevant details about the environment you experienced the bug in -->
 * Version used:
-* Environment name and version (e.g. Chrome 39, node.js 5.4):
-* Operating System and version (desktop or mobile):
-* Link to Sentry (if any)
+* Environment name and version (e.g. node.js 8):
+* Operating System and version:
