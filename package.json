@@ -1,0 +1,38 @@
+{
+  "name": "laterne_ci",
+  "version": "1.0.0",
+  "description": "Laterne CI is a simple NodeJS app that runs Lighthouse in headless mode and post results to CloudWatch",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "scripts": {
+    "precommit": "eslint .",
+    "clean:modules": "./node_modules/.bin/node-prune ./node_modules && npm prune --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artdaw/laterne_ci.git"
+  },
+  "keywords": [
+    "ci",
+    "lighthouse",
+    "docker",
+    "cloudwatch"
+  ],
+  "author": "Gleb Galkin <artdaw@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artdaw/laterne_ci/issues"
+  },
+  "homepage": "https://github.com/artdaw/laterne_ci#readme",
+  "dependencies": {
+    "aws-sdk": "^2.270.1",
+    "lighthouse": "next"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "husky": "^0.14.3",
+    "node-prune": "^1.0.2"
+  }
+}
