@@ -28,7 +28,7 @@
   "homepage": "https://github.com/artdaw/laterne_ci#readme",
   "dependencies": {
     "aws-sdk": "^2.270.1",
-    "lighthouse": "next"
+    "lighthouse": "9.3.0"
   },
   "devDependencies": {
     "eslint": "^5.1.0",
