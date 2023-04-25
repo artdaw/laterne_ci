@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/artdaw/laterne_ci#readme",
   "dependencies": {
-    "aws-sdk": "^2.270.1",
+    "aws-sdk": "^2.1354.0",
     "lighthouse": "next"
   },
   "devDependencies": {
